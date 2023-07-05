@@ -1013,16 +1013,43 @@
          "tilewidth":32
         }, 
         {
+         "columns":58,
          "firstgid":2956,
-         "source":"Kachelsatz\/free_overview.tsx"
+         "image":"tilesets\/free_overview.png",
+         "imageheight":1792,
+         "imagewidth":1886,
+         "margin":0,
+         "name":"free_overview",
+         "spacing":0,
+         "tilecount":3248,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":14,
          "firstgid":6204,
-         "source":"Kachelsatz\/MegaPixelArt32x32pxIcons_SpriteSheet.tsx"
+         "image":"tilesets\/MegaPixelArt32x32pxIcons_SpriteSheet.png",
+         "imageheight":1152,
+         "imagewidth":448,
+         "margin":0,
+         "name":"MegaPixelArt32x32pxIcons_SpriteSheet",
+         "spacing":0,
+         "tilecount":504,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":37,
          "firstgid":6708,
-         "source":"Kachelsatz\/tilesStuff.tsx"
+         "image":"tilesets\/tilesStuff.png",
+         "imageheight":512,
+         "imagewidth":1184,
+         "margin":0,
+         "name":"tilesStuff",
+         "spacing":0,
+         "tilecount":592,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
