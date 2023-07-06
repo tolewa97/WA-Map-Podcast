@@ -846,6 +846,28 @@
                  "width":32,
                  "x":128,
                  "y":608
+                }, 
+                {
+                 "height":95.7113223020888,
+                 "id":26,
+                 "name":"Wegweiser",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":92.8399826330262,
+                 "x":319.675816488977,
+                 "y":478.556611510444
+                }, 
+                {
+                 "height":127.296058661778,
+                 "id":27,
+                 "name":"WegweiserPopup",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":100.496888417193,
+                 "x":216.307588402721,
+                 "y":446.014761927734
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -989,8 +1011,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":67,
- "nextobjectid":20,
+ "nextlayerid":70,
+ "nextobjectid":28,
  "orientation":"orthogonal",
  "properties":[
         {

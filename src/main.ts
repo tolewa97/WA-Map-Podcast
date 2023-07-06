@@ -19,6 +19,15 @@ WA.onInit().then(() => {
 
     WA.room.area.onLeave('clock').subscribe(closePopup)
 
+    WA.room.area.onEnter('Wegweiser').subscribe(() => { //clock ersetzen mit nem anderen Feldnamen
+        //   const today = new Date(); //kann weg, weil keine Uhr nötig
+        //   const time = today.getHours() + ":" + today.getMinutes(); // gleiches
+           currentPopup = WA.ui.openPopup("WegweiserPopup", "Hallo Spieler ", []); //Text muss hier eingefügt werden
+           //clockPopup muss ersetzt werden mit neuem Feld
+       })
+   
+       WA.room.area.onLeave('Wegweiser').subscribe(closePopup)
+
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');
