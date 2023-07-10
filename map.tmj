@@ -756,7 +756,7 @@
                 {
                  "height":128,
                  "id":13,
-                 "name":"AustauschEcke",
+                 "name":"AustauschEckeInnerArea",
                  "properties":[
                         {
                          "name":"focusable",
@@ -868,6 +868,134 @@
                  "width":95.1635550838596,
                  "x":384.307588402721,
                  "y":445.514761927734
+                }, 
+                {
+                 "height":94.5,
+                 "id":28,
+                 "name":"AustauschEckePark 1",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"ChillZone"
+                        }, 
+                        {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"zoom_margin",
+                         "type":"float",
+                         "value":1
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":94.75,
+                 "x":417,
+                 "y":1089
+                }, 
+                {
+                 "height":94.75,
+                 "id":29,
+                 "name":"AustauschEckePark 2",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"ChillZone"
+                        }, 
+                        {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"zoom_margin",
+                         "type":"float",
+                         "value":1
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":94.5,
+                 "x":736.75,
+                 "y":1184.75
+                }, 
+                {
+                 "height":158.5,
+                 "id":30,
+                 "name":"AustauschEckeSportplatz",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"ChillZone"
+                        }, 
+                        {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"zoom_margin",
+                         "type":"float",
+                         "value":1
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":126.5,
+                 "x":1377,
+                 "y":1377
+                }, 
+                {
+                 "height":128,
+                 "id":31,
+                 "name":"AustauschEckeHauss",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"ChillZone"
+                        }, 
+                        {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"zoom_margin",
+                         "type":"float",
+                         "value":1
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":94.75,
+                 "x":1536.5,
+                 "y":704
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1012,7 +1140,7 @@
          "y":0
         }],
  "nextlayerid":70,
- "nextobjectid":28,
+ "nextobjectid":32,
  "orientation":"orthogonal",
  "properties":[
         {
