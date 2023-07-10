@@ -1339,6 +1339,19 @@
          "tilecount":12,
          "tileheight":32,
          "tilewidth":32
+        }, 
+        {
+         "columns":43,
+         "firstgid":8152,
+         "image":"tilesets\/Ram Buttons.png",
+         "imageheight":736,
+         "imagewidth":1376,
+         "margin":0,
+         "name":"Ram Buttons",
+         "spacing":0,
+         "tilecount":989,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
