@@ -36,33 +36,44 @@ WA.onInit().then(() => {
 
     // link the soundfiles to the areas
     WA.room.area.onEnter('Arbeitsweg').subscribe(() => {
+        currentPopup = WA.ui.openPopup("ArbeitswegPopup", "Ihr seid auf dem Weg zur Arbeit oder auf dem Weg nach Hause, auch hier könnt ihr die Zeit nutzen, um euch einen Podcast anzuhören.", []);
         arbeitSound.stop()
         arbeitswegSound.stop()
         sportplatzSound.stop()
         reiseSound.stop()
         arbeitswegSound.play(config)
     })
+    WA.room.area.onLeave('Arbeitsweg').subscribe(closePopup)
+
     WA.room.area.onEnter('Arbeit').subscribe(() => {
+        currentPopup = WA.ui.openPopup("ArbeitPopup", "In einigen Berufen könnt ihr sogar während der Arbeit einen Podcast hören, zum Beispiel als Berufskraftfahrer oder als Paketzusteller.", []);
         arbeitSound.stop()
         arbeitswegSound.stop()
         sportplatzSound.stop()
         reiseSound.stop()
         arbeitSound.play(config2)
     })
+    WA.room.area.onLeave('Arbeit').subscribe(closePopup)
+
     WA.room.area.onEnter('Sportplatz').subscribe(() => {
+        currentPopup = WA.ui.openPopup("SportplatzPopup", "Podcasts können bei verschiedenen Aktivitäten gehört werden, zum Beispiel beim Sport oder beim Training im Fitnessstudio.", []);
         arbeitSound.stop()
         arbeitswegSound.stop()
         sportplatzSound.stop()
         reiseSound.stop()
         sportplatzSound.play(config2)
     })
+    WA.room.area.onLeave('Sportplatz').subscribe(closePopup)
+
     WA.room.area.onEnter('Reise').subscribe(() => {
+        currentPopup = WA.ui.openPopup("ReisePopup", "Seid ihr auf dem Weg in den Urlaub und habt eine Menge Zeit zu überbrücken? Dann könnt ihr genau diese Zeit nutzen, um einen Podcast zu hören.", []);
         arbeitSound.stop()
         arbeitswegSound.stop()
         sportplatzSound.stop()
         reiseSound.stop()
         reiseSound.play(config2)
     })
+    WA.room.area.onLeave('Reise').subscribe(closePopup)
     
     // load the soundfiles
     var arbeitswegSound = WA.sound.loadSound("/Arbeitsweg.mp3");

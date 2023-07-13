@@ -1822,6 +1822,50 @@
                  "width":94.75,
                  "x":1536.5,
                  "y":704
+                }, 
+                {
+                 "height":125,
+                 "id":39,
+                 "name":"ArbeitPopup",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":200,
+                 "x":1761.83333333333,
+                 "y":421.333333333333
+                }, 
+                {
+                 "height":125,
+                 "id":40,
+                 "name":"SportplatzPopup",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":200,
+                 "x":1472.5,
+                 "y":1027
+                }, 
+                {
+                 "height":125,
+                 "id":38,
+                 "name":"ArbeitswegPopup",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":200,
+                 "x":1409,
+                 "y":419.833333333333
+                }, 
+                {
+                 "height":125,
+                 "id":37,
+                 "name":"ReisePopup",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":200,
+                 "x":1057.33333333333,
+                 "y":419.833333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1966,7 +2010,7 @@
          "y":0
         }],
  "nextlayerid":84,
- "nextobjectid":37,
+ "nextobjectid":41,
  "orientation":"orthogonal",
  "properties":[
         {
