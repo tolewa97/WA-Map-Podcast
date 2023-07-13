@@ -67,6 +67,21 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.youtube.com\/embed\/4pH3macmE1M"
+                        }, 
+                        {
+                         "name":"openWebsitePolicy",
+                         "type":"string",
+                         "value":"fullscreen"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE to load an example Podcast!  \nDr\u00fccke LEERTASTE um einen Beispiel Podcast zu laden!"
                         }],
                  "type":"tilelayer",
                  "visible":false,
@@ -136,6 +151,21 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.youtube.com\/embed\/4ujL1LkyQIc"
+                        }, 
+                        {
+                         "name":"openWebsitePolicy",
+                         "type":"string",
+                         "value":"fullscreen"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE to load an example Podcast! \n Dr\u00fccke LEERTASTE um einen Beispiel Podcast zu laden!"
                         }],
                  "type":"tilelayer",
                  "visible":false,
@@ -205,6 +235,21 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.youtube.com\/embed\/4aMCxr62UY4"
+                        }, 
+                        {
+                         "name":"openWebsitePolicy",
+                         "type":"string",
+                         "value":"fullscreen"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE to load an example Podcast! \n Dr\u00fccke LEERTASTE um einen Beispiel Podcast zu laden!"
                         }],
                  "type":"tilelayer",
                  "visible":false,
@@ -274,6 +319,21 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.youtube.com\/embed\/RmghWLNv3dc"
+                        }, 
+                        {
+                         "name":"openWebsitePolicy",
+                         "type":"string",
+                         "value":"fullscreen"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE to load an example Podcast! \n Dr\u00fccke LEERTASTE um einen Beispiel Podcast zu laden!"
                         }],
                  "type":"tilelayer",
                  "visible":false,
@@ -353,6 +413,16 @@
                          "name":"openWebsite",
                          "type":"file",
                          "value":"https:\/\/de.wikipedia.org\/wiki\/Podcast"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE to open Wikipedia (Podcast) \/ Dr\u00fccke LEERTASTE um Wikipedia (Podcast) zu \u00f6ffnen!"
                         }],
                  "type":"tilelayer",
                  "visible":false,
@@ -422,6 +492,16 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/docs.google.com\/document\/d\/1Oytoltqu01kUfMkckEcyrYU2ghE2qF4GFAilBtJU45o\/edit?usp=sharing"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE to get informations about Podcasts advantages and disadvantages! \/ Dr\u00fccke LEERTASTE um Informationen zu Podcast Vor-und Nachteilen zu \u00f6ffnen!"
                         }],
                  "type":"tilelayer",
                  "visible":false,
@@ -491,6 +571,16 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/docs.google.com\/document\/d\/1ojEvye_AogyAtcUJCHhbX7sHV1BSarik_5s080kdslQ\/edit?usp=sharing"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE to get informations about Podcasts Types! \/ Dr\u00fccke LEERTASTE um Informationen zu Podcast Arten zu \u00f6ffnen!"
                         }],
                  "type":"tilelayer",
                  "visible":false,
@@ -560,6 +650,16 @@
                          "name":"openWebsite",
                          "type":"file",
                          "value":"https:\/\/de.wikipedia.org\/wiki\/M-Learning"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE to open Wikipedia (Podcast) \/ Dr\u00fccke LEERTASTE um Wikipedia (Podcast) zu \u00f6ffnen!"
                         }],
                  "type":"tilelayer",
                  "visible":false,
@@ -629,6 +729,16 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/docs.google.com\/document\/d\/1d_JM91Epc0O0eMclubilvm_2mWguajHPnfirH2VG2ys\/edit?usp=sharing"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE to get informations about Podcasts in school! \/ Dr\u00fccke LEERTASTE um Informationen zu Podcast Bildung zu \u00f6ffnen!"
                         }],
                  "type":"tilelayer",
                  "visible":false,
@@ -691,13 +801,23 @@
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                  "height":52,
                  "id":73,
-                 "name":"podcast.de",
+                 "name":"br.de",
                  "opacity":1,
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.podcast.de\/faq\/antwort-4-was-ist-ein-podcast"
+                         "value":"https:\/\/www.br.de\/radio\/bayern2\/podcast-faq-fragen-100.html"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE to get informations about Podcasts! \/ Dr\u00fccke LEERTASTE um Informationen zu Podcast zu \u00f6ffnen!"
                         }],
                  "type":"tilelayer",
                  "visible":false,
@@ -767,6 +887,16 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/docs.google.com\/document\/d\/1l8l90W3NH6DrHk96UNDlKIHwqfRjFE3vVLjqmAyGXJ0\/edit?usp=sharing "
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE to get informations about Podcasts in everyday life! \/ Dr\u00fccke LEERTASTE um Informationen zu Podcast Alltag zu \u00f6ffnen!"
                         }],
                  "type":"tilelayer",
                  "visible":false,
@@ -858,11 +988,11 @@
             3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 2962, 2962, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3,
             3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 2962, 2962, 0, 0, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3,
             3, 3, 3, 3, 0, 0, 0, 3, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 2962, 2962, 0, 0, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3,
-            3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 2962, 2962, 3, 3, 2962, 3, 3, 3, 3, 3, 0, 0, 0, 2962, 2962, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3,
+            3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2777, 2777, 2962, 2962, 3, 3, 2962, 3, 3, 3, 3, 3, 0, 0, 0, 2962, 2962, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3,
             3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 2962, 2962, 2962, 2962, 2962, 2962, 2962, 2962, 2962, 2962, 2962, 632, 0, 0, 0, 2962, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
             3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 632, 0, 632, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2962, 632, 632, 0, 227, 227, 227, 227, 227, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
             3, 3, 3, 0, 0, 0, 3, 0, 632, 632, 632, 3, 632, 632, 632, 3, 3, 0, 632, 632, 3, 3, 632, 632, 632, 632, 3, 3, 3, 3, 3, 632, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
-            3, 3, 3, 2962, 0, 0, 0, 0, 632, 632, 0, 0, 632, 632, 632, 3, 3, 0, 632, 632, 3, 3, 632, 632, 632, 632, 3, 3, 3, 3, 3, 632, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3,
+            3, 3, 3, 2962, 0, 0, 0, 0, 632, 632, 0, 0, 632, 632, 632, 2777, 2777, 0, 632, 632, 2777, 2777, 632, 632, 632, 632, 3, 3, 3, 3, 3, 632, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3,
             3, 3, 0, 0, 0, 0, 0, 632, 632, 632, 0, 0, 1394, 632, 632, 632, 632, 632, 3, 632, 632, 632, 632, 3, 632, 632, 632, 632, 632, 632, 632, 632, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3,
             3, 3, 0, 0, 0, 0, 0, 632, 632, 632, 0, 0, 632, 0, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 632, 632, 632, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3,
             3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3,
@@ -902,7 +1032,7 @@
          "name":"collisions",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":68,
          "x":0,
          "y":0
