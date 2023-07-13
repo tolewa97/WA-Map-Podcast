@@ -3,6 +3,61 @@
  "infinite":false,
  "layers":[
         {
+         "draworder":"topdown",
+         "id":81,
+         "name":"Audio",
+         "objects":[
+                {
+                 "height":89.6666666666666,
+                 "id":32,
+                 "name":"Arbeitsweg",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":90.3333333333333,
+                 "x":1410.33333333333,
+                 "y":547
+                }, 
+                {
+                 "height":90.6666666666666,
+                 "id":34,
+                 "name":"Reise",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":88.6666666666667,
+                 "x":1059.33333333333,
+                 "y":546
+                }, 
+                {
+                 "height":90,
+                 "id":35,
+                 "name":"Arbeit",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":89.3333333333333,
+                 "x":1763.33333333333,
+                 "y":546.666666666667
+                }, 
+                {
+                 "height":89,
+                 "id":36,
+                 "name":"Sportplatz",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":88.6666666666667,
+                 "x":1475.66666666667,
+                 "y":1155.33333333333
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
          "id":80,
          "layers":[
                 {
@@ -1910,8 +1965,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":81,
- "nextobjectid":32,
+ "nextlayerid":84,
+ "nextobjectid":37,
  "orientation":"orthogonal",
  "properties":[
         {

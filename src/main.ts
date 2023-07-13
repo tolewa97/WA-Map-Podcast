@@ -26,12 +26,85 @@ WA.onInit().then(() => {
            //clockPopup muss ersetzt werden mit neuem Feld
        })
    
-       WA.room.area.onLeave('Wegweiser').subscribe(closePopup)
-
+       WA.room.area.onLeave('Wegweiser').subscribe(closePopup) 
+    
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');
     }).catch(e => console.error(e));
+
+
+    // link the soundfiles to the areas
+    WA.room.area.onEnter('Arbeitsweg').subscribe(() => {
+        arbeitSound.stop()
+        arbeitswegSound.stop()
+        sportplatzSound.stop()
+        reiseSound.stop()
+        arbeitswegSound.play(config)
+    })
+    WA.room.area.onEnter('Arbeit').subscribe(() => {
+        arbeitSound.stop()
+        arbeitswegSound.stop()
+        sportplatzSound.stop()
+        reiseSound.stop()
+        arbeitSound.play(config)
+    })
+    WA.room.area.onEnter('Sportplatz').subscribe(() => {
+        arbeitSound.stop()
+        arbeitswegSound.stop()
+        sportplatzSound.stop()
+        reiseSound.stop()
+        sportplatzSound.play(config)
+    })
+    WA.room.area.onEnter('Reise').subscribe(() => {
+        arbeitSound.stop()
+        arbeitswegSound.stop()
+        sportplatzSound.stop()
+        reiseSound.stop()
+        reiseSound.play(config)
+    })
+    
+    // load the soundfiles
+    var arbeitswegSound = WA.sound.loadSound("/Arbeitsweg.mp3");
+    var config = {
+        volume : 0.5,
+        loop : false,
+        rate : 1,
+        detune : 1,
+        delay : 0,
+        seek : 0,
+        mute : false
+    }
+    var arbeitSound = WA.sound.loadSound("/Arbeit.mp3");
+    var config = {
+        volume : 0.5,
+        loop : false,
+        rate : 1,
+        detune : 1,
+        delay : 0,
+        seek : 0,
+        mute : false
+    }
+    var sportplatzSound = WA.sound.loadSound("/Sportplatz.mp3");
+    var config = {
+        volume : 0.5,
+        loop : false,
+        rate : 1,
+        detune : 1,
+        delay : 0,
+        seek : 0,
+        mute : false
+    }
+    var reiseSound = WA.sound.loadSound("/Reise.mp3");
+    var config = {
+        volume : 0.5,
+        loop : false,
+        rate : 1,
+        detune : 1,
+        delay : 0,
+        seek : 0,
+        mute : false
+    }
 
 }).catch(e => console.error(e));
 
@@ -39,7 +112,7 @@ function closePopup(){
     if (currentPopup !== undefined) {
         currentPopup.close();
         currentPopup = undefined;
-    }
+    }   
 }
 
 export {};
