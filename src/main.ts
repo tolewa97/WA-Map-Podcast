@@ -47,64 +47,48 @@ WA.onInit().then(() => {
         arbeitswegSound.stop()
         sportplatzSound.stop()
         reiseSound.stop()
-        arbeitSound.play(config)
+        arbeitSound.play(config2)
     })
     WA.room.area.onEnter('Sportplatz').subscribe(() => {
         arbeitSound.stop()
         arbeitswegSound.stop()
         sportplatzSound.stop()
         reiseSound.stop()
-        sportplatzSound.play(config)
+        sportplatzSound.play(config2)
     })
     WA.room.area.onEnter('Reise').subscribe(() => {
         arbeitSound.stop()
         arbeitswegSound.stop()
         sportplatzSound.stop()
         reiseSound.stop()
-        reiseSound.play(config)
+        reiseSound.play(config2)
     })
     
     // load the soundfiles
     var arbeitswegSound = WA.sound.loadSound("/Arbeitsweg.mp3");
-    var config = {
-        volume : 0.5,
-        loop : false,
-        rate : 1,
-        detune : 1,
-        delay : 0,
-        seek : 0,
-        mute : false
-    }
     var arbeitSound = WA.sound.loadSound("/Arbeit.mp3");
-    var config = {
-        volume : 0.5,
-        loop : false,
-        rate : 1,
-        detune : 1,
-        delay : 0,
-        seek : 0,
-        mute : false
-    }
     var sportplatzSound = WA.sound.loadSound("/Sportplatz.mp3");
-    var config = {
-        volume : 0.5,
-        loop : false,
-        rate : 1,
-        detune : 1,
-        delay : 0,
-        seek : 0,
-        mute : false
-    }
     var reiseSound = WA.sound.loadSound("/Reise.mp3");
     var config = {
-        volume : 0.5,
+        volume : 1,
         loop : false,
         rate : 1,
         detune : 1,
         delay : 0,
-        seek : 0,
+        seek : 0.7,
         mute : false
     }
+    var config2 = {
+        volume : 1,
+        loop : false,
+        rate : 1,
+        detune : 1,
+        delay : 0,
+        seek : 1,
+        mute : false
+    }
+
+
 
 }).catch(e => console.error(e));
 
