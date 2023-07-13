@@ -344,7 +344,7 @@
          "name":"Bsp. Podcast",
          "opacity":1,
          "type":"group",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -907,7 +907,7 @@
          "name":"Weblinks",
          "opacity":1,
          "type":"group",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -1032,7 +1032,7 @@
          "name":"collisions",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":68,
          "x":0,
          "y":0
@@ -1547,7 +1547,7 @@
                         {
                          "name":"zoom_margin",
                          "type":"float",
-                         "value":1
+                         "value":2
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1663,7 +1663,7 @@
                         {
                          "name":"zoom_margin",
                          "type":"float",
-                         "value":1
+                         "value":2
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1695,7 +1695,7 @@
                         {
                          "name":"zoom_margin",
                          "type":"float",
-                         "value":1
+                         "value":2
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1727,7 +1727,7 @@
                         {
                          "name":"zoom_margin",
                          "type":"float",
-                         "value":1
+                         "value":2
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1759,7 +1759,7 @@
                         {
                          "name":"zoom_margin",
                          "type":"float",
-                         "value":1
+                         "value":2
                         }],
                  "rotation":0,
                  "type":"area",
