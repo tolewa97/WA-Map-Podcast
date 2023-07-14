@@ -22,7 +22,7 @@ WA.onInit().then(() => {
     WA.room.area.onEnter('Wegweiser').subscribe(() => { 
            currentPopup = WA.ui.openPopup("WegweiserPopup", 
            "Herzlich Willkommen im Podcast Adventure. Werter Wissbegieriger, lasst mich euch ein paar nützliche Informationen geben. In diesem Adventure gibt es eine Farbordnung, die euch beim Erkunden der Welt unterstützen wird. "
-           + '\n' + "Grün = Austausch Bereich" + '\n' + "Gelb = Quiz, Blau = Lektüre" + '\n' + "Rot = Ruhe Bereich" + '\n' + "Weiß = Audio Bereich" + '\n' + "Dunkelblau = NPCs"
+           + '\n' + "Grün = Austausch Bereich" + '\n' + "Gelb = Quiz" + '\n' + "Blau = Lektüre" + '\n' + "Rot = Ruhe Bereich" + '\n' + "Weiß = Audio Bereich" + '\n' + "Dunkelblau = NPCs"
            + "Im Unteren-Bereich findest du verschiedene Interaktionen, von Informationen zu Podcasts, einigen Beispielen von Podcasts bis hin zu einem Quiz, sowie einem Austausch-Bereich. Im Äußeren-Bereich findest du meinen Bruder, der dir dann erzählt, was es draußen so zu entdecken gibt. Über die Treppe kommst du in den Oberen-Bereich, dort findest du Informationen zur Erstellung von Podcasts."
         , []); 
        })
