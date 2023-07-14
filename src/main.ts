@@ -27,7 +27,47 @@ WA.onInit().then(() => {
        })
    
        WA.room.area.onLeave('Wegweiser').subscribe(closePopup) 
-    
+
+        WA.room.area.onEnter('WegweiserUpper1').subscribe(() => { //clock ersetzen mit nem anderen Feldnamen
+        currentPopup = WA.ui.openPopup("WegweiserPopupUpper1", "Lass uns über die Erstellung von Podcasts reden.", []); //Text muss hier eingefügt werden
+       })
+       WA.room.area.onLeave('WegweiserUpper1').subscribe(closePopup) 
+
+        WA.room.area.onEnter('WegweiserUpper2').subscribe(() => { //clock ersetzen mit nem anderen Feldnamen
+        currentPopup = WA.ui.openPopup("WegweiserPopupUpper2", "Also zuerst muss er aufgenommen werden.", []); //Text muss hier eingefügt werden
+       })
+       WA.room.area.onLeave('WegweiserUpper2').subscribe(closePopup) 
+
+        WA.room.area.onEnter('WegweiserUpper3').subscribe(() => { //clock ersetzen mit nem anderen Feldnamen
+        currentPopup = WA.ui.openPopup("WegweiserPopupUpper3", "Das Abmischen dauert aber lange...", []); //Text muss hier eingefügt werden
+       })
+       WA.room.area.onLeave('WegweiserUpper3').subscribe(closePopup)        
+
+        WA.room.area.onEnter('WegweiserUpper4').subscribe(() => { //clock ersetzen mit nem anderen Feldnamen
+        currentPopup = WA.ui.openPopup("WegweiserPopupUpper4", "…ist das aufwändig...", []); //Text muss hier eingefügt werden
+       })
+       WA.room.area.onLeave('WegweiserUpper4').subscribe(closePopup)
+
+        WA.room.area.onEnter('WegweiserUpper5').subscribe(() => { //clock ersetzen mit nem anderen Feldnamen
+        currentPopup = WA.ui.openPopup("WegweiserPopupUpper5", "Gleich ist der Upload fertig.", []); //Text muss hier eingefügt werden
+       })
+       WA.room.area.onLeave('WegweiserUpper5').subscribe(closePopup)     
+
+        WA.room.area.onEnter('WegweiserUpper6').subscribe(() => { //clock ersetzen mit nem anderen Feldnamen
+        currentPopup = WA.ui.openPopup("WegweiserPopupUpper6", "Nur noch freischalten / freigeben.", []); //Text muss hier eingefügt werden
+       })
+       WA.room.area.onLeave('WegweiserUpper6').subscribe(closePopup)          
+
+        WA.room.area.onEnter('WegweiserUpper7').subscribe(() => { //clock ersetzen mit nem anderen Feldnamen
+        currentPopup = WA.ui.openPopup("WegweiserPopupUpper7", "Ist der Podcast schon draußen?", []); //Text muss hier eingefügt werden
+       })
+       WA.room.area.onLeave('WegweiserUpper7').subscribe(closePopup)            
+
+        WA.room.area.onEnter('WegweiserUpper8').subscribe(() => { //clock ersetzen mit nem anderen Feldnamen
+        currentPopup = WA.ui.openPopup("WegweiserPopupUpper8", "Ja, ich bin schon mittendrin.", []); //Text muss hier eingefügt werden
+       })
+       WA.room.area.onLeave('WegweiserUpper8').subscribe(closePopup)           
+       
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');
