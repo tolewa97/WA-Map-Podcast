@@ -1685,15 +1685,15 @@
                  "y":511.223278177111
                 }, 
                 {
-                 "height":64.296058661778,
+                 "height":300,
                  "id":27,
                  "name":"WegweiserPopup",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":95.1635550838596,
-                 "x":384.307588402721,
-                 "y":445.514761927734
+                 "width":500,
+                 "x":200,
+                 "y":400
                 }, 
                 {
                  "height":94.5,
@@ -1866,6 +1866,28 @@
                  "width":200,
                  "x":1057.33333333333,
                  "y":419.833333333333
+                }, 
+                {
+                 "height":60.298133050316,
+                 "id":41,
+                 "name":"WegweiserAu\u00dfen",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":89.0115297409426,
+                 "x":356.046118963771,
+                 "y":832.688504028173
+                }, 
+                {
+                 "height":200,
+                 "id":42,
+                 "name":"WegweiserPopupAu\u00dfen",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":300,
+                 "x":288.091080129287,
+                 "y":700
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -2010,7 +2032,7 @@
          "y":0
         }],
  "nextlayerid":84,
- "nextobjectid":41,
+ "nextobjectid":43,
  "orientation":"orthogonal",
  "properties":[
         {

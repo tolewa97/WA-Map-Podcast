@@ -19,15 +19,23 @@ WA.onInit().then(() => {
 
     WA.room.area.onLeave('clock').subscribe(closePopup)
 
-    WA.room.area.onEnter('Wegweiser').subscribe(() => { //clock ersetzen mit nem anderen Feldnamen
-        //   const today = new Date(); //kann weg, weil keine Uhr nötig
-        //   const time = today.getHours() + ":" + today.getMinutes(); // gleiches
-           currentPopup = WA.ui.openPopup("WegweiserPopup", "Hallo Spieler ", []); //Text muss hier eingefügt werden
-           //clockPopup muss ersetzt werden mit neuem Feld
+    WA.room.area.onEnter('Wegweiser').subscribe(() => { 
+           currentPopup = WA.ui.openPopup("WegweiserPopup", 
+           "Herzlich Willkommen im Podcast Adventure. Werter Wissbegieriger, lasst mich euch ein paar nützliche Informationen geben. In diesem Adventure gibt es eine Farbordnung, die euch beim Erkunden der Welt unterstützen wird. "
+           + '\n' + "Grün = Austausch Bereich" + '\n' + "Gelb = Quiz, Blau = Lektüre" + '\n' + "Rot = Ruhe Bereich" + '\n' + "Weiß = Audio Bereich" + '\n' + "Dunkelblau = NPCs"
+           + "Im Unteren-Bereich findest du verschiedene Interaktionen, von Informationen zu Podcasts, einigen Beispielen von Podcasts bis hin zu einem Quiz, sowie einem Austausch-Bereich. Im Äußeren-Bereich findest du meinen Bruder, der dir dann erzählt, was es draußen so zu entdecken gibt. Über die Treppe kommst du in den Oberen-Bereich, dort findest du Informationen zur Erstellung von Podcasts."
+        , []); 
        })
-   
        WA.room.area.onLeave('Wegweiser').subscribe(closePopup) 
 
+       WA.room.area.onEnter('WegweiserAußen').subscribe(() => { 
+        currentPopup = WA.ui.openPopup("WegweiserPopupAußen", 
+        "Hallo Abenteurer, mein Bruder scheint euch zu mir geschickt zu haben. Also, dann lass mich dir erzählen, was du hier so alles entdecken kannst. Auch hier gibt es verschiedene Interaktionsmöglichkeiten, mit dem Farbschema bist du ja schon vertraut. Also im Äußeren-Bereich findest du hauptsächlich Informationen zum Konsum von Podcasts und der Verdeutlichung des Zusammenhangs von Podcasts und mobile-Learning."
+     , []); 
+    })
+    WA.room.area.onLeave('WegweiserAußen').subscribe(closePopup) 
+
+       //UpperArea
         WA.room.area.onEnter('WegweiserUpper1').subscribe(() => { //clock ersetzen mit nem anderen Feldnamen
         currentPopup = WA.ui.openPopup("WegweiserPopupUpper1", "Lass uns über die Erstellung von Podcasts reden.", []); //Text muss hier eingefügt werden
        })
