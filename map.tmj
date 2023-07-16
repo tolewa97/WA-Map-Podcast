@@ -1895,7 +1895,7 @@
                  "name":"Quiz1",
                  "rotation":0,
                  "type":"area",
-                 "visible":true,
+                 "visible":false,
                  "width":30.6276231366685,
                  "x":352.217666071687,
                  "y":225.87872063293
@@ -1906,7 +1906,7 @@
                  "name":"QuizPopup1",
                  "rotation":0,
                  "type":"",
-                 "visible":true,
+                 "visible":false,
                  "width":600,
                  "x":200,
                  "y":150
@@ -1917,7 +1917,7 @@
                  "name":"Quiz2",
                  "rotation":0,
                  "type":"area",
-                 "visible":true,
+                 "visible":false,
                  "width":25.842057021564,
                  "x":354.131892517729,
                  "y":160.795021467509
@@ -1928,7 +1928,7 @@
                  "name":"QuizPopup2",
                  "rotation":0,
                  "type":"",
-                 "visible":true,
+                 "visible":false,
                  "width":400,
                  "x":250,
                  "y":159.837908244488
@@ -1939,7 +1939,7 @@
                  "name":"Quiz3",
                  "rotation":0,
                  "type":"area",
-                 "visible":true,
+                 "visible":false,
                  "width":26.7991702445849,
                  "x":450.800328042838,
                  "y":226.835833855951
@@ -1950,7 +1950,7 @@
                  "name":"QuizPopup3",
                  "rotation":0,
                  "type":"",
-                 "visible":true,
+                 "visible":false,
                  "width":600,
                  "x":200,
                  "y":150
@@ -1961,7 +1961,7 @@
                  "name":"Quiz4",
                  "rotation":0,
                  "type":"area",
-                 "visible":true,
+                 "visible":false,
                  "width":27.7562834676058,
                  "x":448.886101596797,
                  "y":160.795021467509
@@ -1972,10 +1972,98 @@
                  "name":"QuizPopup4",
                  "rotation":0,
                  "type":"",
-                 "visible":true,
+                 "visible":false,
                  "width":400,
                  "x":300,
                  "y":157.923681798447
+                }, 
+                {
+                 "height":27.7562834676058,
+                 "id":67,
+                 "name":"Quiz5",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":26.7991702445848,
+                 "x":512.055574316175,
+                 "y":223.964494186888
+                }, 
+                {
+                 "height":100,
+                 "id":72,
+                 "name":"QuizPopup5",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":400,
+                 "x":400,
+                 "y":205.779342949491
+                }, 
+                {
+                 "height":26.7991702445849,
+                 "id":68,
+                 "name":"Quiz6",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":23.9278305755222,
+                 "x":513.969800762217,
+                 "y":159.837908244488
+                }, 
+                {
+                 "height":100,
+                 "id":73,
+                 "name":"QuizPopup6",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":400,
+                 "x":400,
+                 "y":131.124511553862
+                }, 
+                {
+                 "height":27.7562834676058,
+                 "id":71,
+                 "name":"Quiz7",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":25.842057021564,
+                 "x":609.681123064306,
+                 "y":225.87872063293
+                }, 
+                {
+                 "height":100,
+                 "id":74,
+                 "name":"QuizPopup7",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":400,
+                 "x":500,
+                 "y":202.908003280428
+                }, 
+                {
+                 "height":30.6276231366684,
+                 "id":69,
+                 "name":"Quiz8",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":27.7562834676057,
+                 "x":609.681123064306,
+                 "y":159.837908244488
+                }, 
+                {
+                 "height":100,
+                 "id":75,
+                 "name":"QuizPopup8",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":400,
+                 "x":500,
+                 "y":140.695643784071
                 }, 
                 {
                  "height":27.7562834676058,
@@ -1983,7 +2071,7 @@
                  "name":"Quiz9",
                  "rotation":0,
                  "type":"area",
-                 "visible":true,
+                 "visible":false,
                  "width":23.9278305755222,
                  "x":674.764822229726,
                  "y":224.921607409909
@@ -1994,7 +2082,7 @@
                  "name":"QuizPopup9",
                  "rotation":0,
                  "type":"",
-                 "visible":true,
+                 "visible":false,
                  "width":400,
                  "x":450,
                  "y":150
@@ -2005,7 +2093,7 @@
                  "name":"Quiz10",
                  "rotation":0,
                  "type":"area",
-                 "visible":true,
+                 "visible":false,
                  "width":26.7991702445848,
                  "x":672.850595783685,
                  "y":162.709247913551
@@ -2016,7 +2104,7 @@
                  "name":"QuizPopup10",
                  "rotation":0,
                  "type":"",
-                 "visible":true,
+                 "visible":false,
                  "width":600,
                  "x":400,
                  "y":150
@@ -2164,7 +2252,7 @@
          "y":0
         }],
  "nextlayerid":84,
- "nextobjectid":67,
+ "nextobjectid":76,
  "orientation":"orthogonal",
  "properties":[
         {

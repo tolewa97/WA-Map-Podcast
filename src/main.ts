@@ -261,6 +261,190 @@ WA.onInit().then(() => {
       }
       WA.room.area.onEnter('Quiz4').subscribe(openPopup4);
 
+      function openPopup5() {
+        currentPopup = WA.ui.openPopup("QuizPopup5", "Platzhalterfrage", [
+          {
+            label: "Antwort1",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Antwort2",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort2"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Antwort3",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort3"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Antwort4",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort4"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          }
+        ]);
+        popupSubscription = WA.room.area.onLeave('Quiz5').subscribe(() => {
+          closePopup();
+          unsubscribePopup();
+        });
+      }
+      WA.room.area.onEnter('Quiz5').subscribe(openPopup5);
+
+      function openPopup6() {
+        currentPopup = WA.ui.openPopup("QuizPopup6", "Platzhalterfrage", [
+          {
+            label: "Antwort1",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Antwort2",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort2"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Antwort3",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort3"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Antwort4",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort4"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          }
+        ]);
+        popupSubscription = WA.room.area.onLeave('Quiz6').subscribe(() => {
+          closePopup();
+          unsubscribePopup();
+        });
+      }
+      WA.room.area.onEnter('Quiz6').subscribe(openPopup6);
+
+      function openPopup7() {
+        currentPopup = WA.ui.openPopup("QuizPopup7", "Platzhalterfrage", [
+          {
+            label: "Antwort1",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Antwort2",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort2"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Antwort3",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort3"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Antwort4",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort4"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          }
+        ]);
+        popupSubscription = WA.room.area.onLeave('Quiz7').subscribe(() => {
+          closePopup();
+          unsubscribePopup();
+        });
+      }
+      WA.room.area.onEnter('Quiz7').subscribe(openPopup7);
+
+      function openPopup8() {
+        currentPopup = WA.ui.openPopup("QuizPopup8", "Platzhalterfrage", [
+          {
+            label: "Antwort1",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Antwort2",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort2"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Antwort3",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort3"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Antwort4",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort4"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          }
+        ]);
+        popupSubscription = WA.room.area.onLeave('Quiz8').subscribe(() => {
+          closePopup();
+          unsubscribePopup();
+        });
+      }
+      WA.room.area.onEnter('Quiz8').subscribe(openPopup8);
+
       function openPopup9() {
         currentPopup = WA.ui.openPopup("QuizPopup9", "Wie werden Podcasts abonniert?", [
           {
