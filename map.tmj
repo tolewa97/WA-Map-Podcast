@@ -1907,9 +1907,9 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":400,
-                 "x":250,
-                 "y":192.379757827199
+                 "width":600,
+                 "x":200,
+                 "y":150
                 }, 
                 {
                  "height":30.6276231366684,
@@ -1932,6 +1932,94 @@
                  "width":400,
                  "x":250,
                  "y":159.837908244488
+                }, 
+                {
+                 "height":25.842057021564,
+                 "id":58,
+                 "name":"Quiz3",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":26.7991702445849,
+                 "x":450.800328042838,
+                 "y":226.835833855951
+                }, 
+                {
+                 "height":100,
+                 "id":59,
+                 "name":"QuizPopup3",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":600,
+                 "x":200,
+                 "y":150
+                }, 
+                {
+                 "height":29.6705099136475,
+                 "id":57,
+                 "name":"Quiz4",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":27.7562834676058,
+                 "x":448.886101596797,
+                 "y":160.795021467509
+                }, 
+                {
+                 "height":100,
+                 "id":60,
+                 "name":"QuizPopup4",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":400,
+                 "x":300,
+                 "y":157.923681798447
+                }, 
+                {
+                 "height":27.7562834676058,
+                 "id":65,
+                 "name":"Quiz9",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":23.9278305755222,
+                 "x":674.764822229726,
+                 "y":224.921607409909
+                }, 
+                {
+                 "height":100,
+                 "id":66,
+                 "name":"QuizPopup9",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":400,
+                 "x":450,
+                 "y":150
+                }, 
+                {
+                 "height":26.7991702445849,
+                 "id":61,
+                 "name":"Quiz10",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":26.7991702445848,
+                 "x":672.850595783685,
+                 "y":162.709247913551
+                }, 
+                {
+                 "height":100,
+                 "id":64,
+                 "name":"QuizPopup10",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":600,
+                 "x":400,
+                 "y":150
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -2076,7 +2164,7 @@
          "y":0
         }],
  "nextlayerid":84,
- "nextobjectid":47,
+ "nextobjectid":67,
  "orientation":"orthogonal",
  "properties":[
         {

@@ -78,9 +78,9 @@ WA.onInit().then(() => {
        WA.room.area.onLeave('WegweiserUpper8').subscribe(closePopup)      
        
        function openPopup() {
-        currentPopup = WA.ui.openPopup("QuizPopup1", "Frage", [
+        currentPopup = WA.ui.openPopup("QuizPopup1", "Wie werden Podcasts erstellt?", [
           {
-            label: "Antwort1",
+            label: "Aufnehmen, Abmischen, Hochladen, Anhören",
             className: "primary",
             callback: (popup) => {
               // Schließe das Popup, wenn der "Antwort"-Button gedrückt wird.
@@ -89,7 +89,7 @@ WA.onInit().then(() => {
             }
           },
           {
-            label: "Antwort2",
+            label: "Abmischen, Aufnehmen, Anhören, Hochladen",
             className: "primary",
             callback: (popup) => {
               // Schließe das Popup, wenn der "Antwort2"-Button gedrückt wird.
@@ -98,7 +98,7 @@ WA.onInit().then(() => {
             }
           },
           {
-            label: "Antwort3",
+            label: "Quatschen, Hochladen, Abmischen, Anhören",
             className: "primary",
             callback: (popup) => {
               // Schließe das Popup, wenn der "Antwort3"-Button gedrückt wird.
@@ -107,7 +107,7 @@ WA.onInit().then(() => {
             }
           },
           {
-            label: "Antwort4",
+            label: "Aufnehmen, Hochladen, Anhören",
             className: "primary",
             callback: (popup) => {
               // Schließe das Popup, wenn der "Antwort4"-Button gedrückt wird.
@@ -124,9 +124,9 @@ WA.onInit().then(() => {
       WA.room.area.onEnter('Quiz1').subscribe(openPopup);
 
       function openPopup2() {
-        currentPopup = WA.ui.openPopup("QuizPopup2", "Frage", [
+        currentPopup = WA.ui.openPopup("QuizPopup2", "Welche der folgenden Formate sind keine Art von Podcasts?", [
           {
-            label: "Antwort1",
+            label: "Laber-Podcast",
             className: "primary",
             callback: (popup) => {
               // Schließe das Popup, wenn der "Antwort"-Button gedrückt wird.
@@ -135,7 +135,7 @@ WA.onInit().then(() => {
             }
           },
           {
-            label: "Antwort2",
+            label: "Promi-Podcast",
             className: "primary",
             callback: (popup) => {
               // Schließe das Popup, wenn der "Antwort2"-Button gedrückt wird.
@@ -144,7 +144,7 @@ WA.onInit().then(() => {
             }
           },
           {
-            label: "Antwort3",
+            label: "Bade-Podcast",
             className: "primary",
             callback: (popup) => {
               // Schließe das Popup, wenn der "Antwort3"-Button gedrückt wird.
@@ -153,7 +153,7 @@ WA.onInit().then(() => {
             }
           },
           {
-            label: "Antwort4",
+            label: "Experten-Podcast",
             className: "primary",
             callback: (popup) => {
               // Schließe das Popup, wenn der "Antwort4"-Button gedrückt wird.
@@ -168,6 +168,190 @@ WA.onInit().then(() => {
         });
       }
       WA.room.area.onEnter('Quiz2').subscribe(openPopup2);
+
+      function openPopup3() {
+        currentPopup = WA.ui.openPopup("QuizPopup3", "Was sind Vorteile von Laber-Podcasts?", [
+          {
+            label: "Relativ günstig, kaum Vorbereitung",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Reichweitensteigerung durch Promibonus",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort2"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Gut zum Anwerben neuer Mitarbeiter",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort3"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Ermöglicht Einblicke in Firmen",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort4"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          }
+        ]);
+        popupSubscription = WA.room.area.onLeave('Quiz3').subscribe(() => {
+          closePopup();
+          unsubscribePopup();
+        });
+      }
+      WA.room.area.onEnter('Quiz3').subscribe(openPopup3);
+
+      function openPopup4() {
+        currentPopup = WA.ui.openPopup("QuizPopup4", "Wo kann man keinen Podcast hören?", [
+          {
+            label: "Im Bus",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Im Park",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort2"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Beim Tauchen",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort3"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Beim Putzen",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort4"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          }
+        ]);
+        popupSubscription = WA.room.area.onLeave('Quiz4').subscribe(() => {
+          closePopup();
+          unsubscribePopup();
+        });
+      }
+      WA.room.area.onEnter('Quiz4').subscribe(openPopup4);
+
+      function openPopup9() {
+        currentPopup = WA.ui.openPopup("QuizPopup9", "Wie werden Podcasts abonniert?", [
+          {
+            label: "Über RSS",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Über Bluetooth",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort2"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Über Infrarot",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort3"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Per Post",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort4"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          }
+        ]);
+        popupSubscription = WA.room.area.onLeave('Quiz9').subscribe(() => {
+          closePopup();
+          unsubscribePopup();
+        });
+      }
+      WA.room.area.onEnter('Quiz9').subscribe(openPopup9);
+
+      function openPopup10() {
+        currentPopup = WA.ui.openPopup("QuizPopup10", "Warum sind Podcasts Teil des mobile Learning?", [
+          {
+            label: "Da man sie nur zu bestimmten Zeiten hören kann",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Da man sie nur an bestimmten Orten hören kann",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort2"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Da die sowohl Zeit- als auch ortsunabhängig sind",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort3"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Da es in ihnen nur um das Automobil geht",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort4"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          }
+        ]);
+        popupSubscription = WA.room.area.onLeave('Quiz10').subscribe(() => {
+          closePopup();
+          unsubscribePopup();
+        });
+      }
+      WA.room.area.onEnter('Quiz10').subscribe(openPopup10);
 
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
