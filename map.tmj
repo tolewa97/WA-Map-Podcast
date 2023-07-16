@@ -1888,6 +1888,50 @@
                  "width":300,
                  "x":288.091080129287,
                  "y":700
+                }, 
+                {
+                 "height":28.7133966906267,
+                 "id":43,
+                 "name":"Quiz1",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":30.6276231366685,
+                 "x":352.217666071687,
+                 "y":225.87872063293
+                }, 
+                {
+                 "height":100,
+                 "id":44,
+                 "name":"QuizPopup1",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":400,
+                 "x":250,
+                 "y":192.379757827199
+                }, 
+                {
+                 "height":30.6276231366684,
+                 "id":45,
+                 "name":"Quiz2",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":25.842057021564,
+                 "x":354.131892517729,
+                 "y":160.795021467509
+                }, 
+                {
+                 "height":100,
+                 "id":46,
+                 "name":"QuizPopup2",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":400,
+                 "x":250,
+                 "y":159.837908244488
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -2032,7 +2076,7 @@
          "y":0
         }],
  "nextlayerid":84,
- "nextobjectid":43,
+ "nextobjectid":47,
  "orientation":"orthogonal",
  "properties":[
         {

@@ -5,6 +5,7 @@ import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 console.log('Script started successfully');
 
 let currentPopup: any = undefined;
+let popupSubscription: any = undefined;
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
@@ -74,8 +75,101 @@ WA.onInit().then(() => {
         WA.room.area.onEnter('WegweiserUpper8').subscribe(() => { //clock ersetzen mit nem anderen Feldnamen
         currentPopup = WA.ui.openPopup("WegweiserPopupUpper8", "Ja, ich bin schon mittendrin.", []); //Text muss hier eingefügt werden
        })
-       WA.room.area.onLeave('WegweiserUpper8').subscribe(closePopup)           
+       WA.room.area.onLeave('WegweiserUpper8').subscribe(closePopup)      
        
+       function openPopup() {
+        currentPopup = WA.ui.openPopup("QuizPopup1", "Frage", [
+          {
+            label: "Antwort1",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Antwort2",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort2"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Antwort3",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort3"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Antwort4",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort4"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          }
+        ]);
+        popupSubscription = WA.room.area.onLeave('Quiz1').subscribe(() => {
+          closePopup();
+          unsubscribePopup();
+        });
+      }
+      WA.room.area.onEnter('Quiz1').subscribe(openPopup);
+
+      function openPopup2() {
+        currentPopup = WA.ui.openPopup("QuizPopup2", "Frage", [
+          {
+            label: "Antwort1",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Antwort2",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort2"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Antwort3",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort3"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          },
+          {
+            label: "Antwort4",
+            className: "primary",
+            callback: (popup) => {
+              // Schließe das Popup, wenn der "Antwort4"-Button gedrückt wird.
+              popup.close();
+              unsubscribePopup();
+            }
+          }
+        ]);
+        popupSubscription = WA.room.area.onLeave('Quiz2').subscribe(() => {
+          closePopup();
+          unsubscribePopup();
+        });
+      }
+      WA.room.area.onEnter('Quiz2').subscribe(openPopup2);
+
+
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');
@@ -157,5 +251,10 @@ function closePopup(){
         currentPopup = undefined;
     }   
 }
-
+function unsubscribePopup() {
+    if (popupSubscription) {
+      popupSubscription.unsubscribe();
+      popupSubscription = undefined;
+    }
+  }
 export {};
